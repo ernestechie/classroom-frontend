@@ -5,7 +5,7 @@ import { Subject } from "../types/subject.types";
 const mockSubjects: Subject[] = [
   {
     id: 1,
-    courseCode: "CS101",
+    courseCode: "CSC101",
     name: "Introduction to Computer Science",
     department: "Computer Science",
     description:
@@ -14,7 +14,7 @@ const mockSubjects: Subject[] = [
   },
   {
     id: 2,
-    courseCode: "MATH201",
+    courseCode: "MTH201",
     name: "Calculus II",
     department: "Mathematics",
     description:
@@ -29,6 +29,15 @@ const mockSubjects: Subject[] = [
     description:
       "An exploration of quantum theory covering wave-particle duality, Schrödinger equation, quantum states, and applications in modern physics. Prerequisites include advanced mathematics and classical mechanics.",
     createdAt: new Date("2024-02-01"),
+  },
+  {
+    id: 3,
+    courseCode: "CSC402",
+    name: "Software Engineering",
+    department: "Compute Science",
+    description:
+      "An advanced course covering advanced software engineering concepts, data structures, and algorithms. Students will learn problem-solving techniques and basic software development principles.",
+    createdAt: new Date("2025-02-01"),
   },
 ];
 
