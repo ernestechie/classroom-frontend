@@ -36,7 +36,7 @@ const mockSubjects: Subject[] = [
     name: "Software Engineering",
     department: "Compute Science",
     description:
-      "An advanced course covering advanced software engineering concepts, data structures, and algorithms. Students will learn problem-solving techniques and basic software development principles.",
+      "Advanced course covering advanced software engineering concepts, data structures, and algorithms. Students will learn problem-solving techniques and basic software development principles.",
     createdAt: new Date("2025-02-01"),
   },
 ];
